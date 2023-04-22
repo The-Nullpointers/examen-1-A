@@ -1,0 +1,68 @@
+#prestigeTitle{
+  font-family: "Courier New", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2c7cab;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+section {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+section p {
+  padding: 10px;
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
