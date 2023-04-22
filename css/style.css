@@ -66,3 +66,17 @@ footer {
   padding: 20px;
   text-align: center;
 }
+#cssintro{
+    width:1200px;
+    border: 1px solid black;
+    height: auto;
+}
+#jsintro {
+    width: 1200px;
+    border: 1px solid black;
+    height: auto;
+}
+#sectiontext{
+    font-size: 23px;
+    text-align:left;
+}
