@@ -1,18 +1,18 @@
-/* Global styles */
+#prestigeTitle{
+  font-family: "Courier New", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Header styles */
 header {
-  background-color: #4CAF50;
+  background-color: #2c7cab;
   color: white;
   padding: 20px;
 }
 
-/* Navigation styles */
 nav {
   display: flex;
   background-color: #333;
@@ -31,7 +31,6 @@ nav a:hover {
   color: #333;
 }
 
-/* Main content styles */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -61,7 +60,6 @@ section p {
   margin: 0;
 }
 
-/* Footer styles */
 footer {
   background-color: #333;
   color: white;
