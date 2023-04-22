@@ -1,3 +1,8 @@
+window.onload = function() {
+    var section = document.querySelector('.animated-section');
+    section.classList.add('animate');
+}
+
 function gotopage(x){
     if(x==1){
         window.location.href = "html/html.html";
