@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 
     <title>*NULL CSS</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL75St3h3A6ezFmlszs27NFm2ab9X"
           crossorigin="anonymous">
@@ -11,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>The NullPointer's Schools</h1>
+        <h1 id="prestigeTitle">The NullPointer™'s College</h1>
     </header>
     <nav>
         <a href="index.html">Inicio</a>
@@ -20,51 +21,52 @@
         <a href="js.html">JavaScript</a>
     </nav>
     <main>
+    <center>
         <section id="cssintro" class="animated-section">
             <h2>Introduccion</h2>
             <p id="sectiontext1">
-                CSS (Cascading Style Sheets) es un lenguaje de dise�o utilizado en la creaci�n de sitios web para definir la presentaci�n y el estilo de los documentos
+                CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado en la creación de sitios web para definir la presentación y el estilo de los documentos
                 HTML (HyperText Markup Language).
-                CSS permite a los desarrolladores web separar el dise�o
-                y la presentaci�n de la estructura del contenido de un sitio web, lo que permite una mayor flexibilidad y control sobre la apariencia de la p�gina.
+                CSS permite a los desarrolladores web separar el diseño
+                y la presentación de la estructura del contenido de un sitio web, lo que permite una mayor flexibilidad y control sobre la apariencia de la página.
             </p>
         </section>
         <br>
         <section id="cssintro"  class="animated-section">
             <h2>Formas de usarlo y sus diferentes propiedades</h2>
             <p id="sectiontext1">
-                En cuanto a las formas de usar CSS estar�an las siguientes:
+                En cuanto a las formas de usar CSS estarán las siguientes:
                 <br>
-                1.	CSS en l�nea: Se utiliza la etiqueta HTML style para definir estilos directamente en la p�gina.
+                1.	CSS en línea: Se utiliza la etiqueta HTML style para definir estilos directamente en la página.
                 <br>
-                2.	CSS embebido: Se utiliza la etiqueta HTML style dentro de la etiqueta head para definir estilos en la misma p�gina.
+                2.	CSS embebido: Se utiliza la etiqueta HTML style dentro de la etiqueta head para definir estilos en la misma página.
                 <br>
-                3.	CSS externo: Se utiliza un archivo CSS externo para definir estilos que se aplicar�n a varias p�ginas
+                3.	CSS externo: Se utiliza un archivo CSS externo para definir estilos que se aplicarón a varias páginas
                 <br>
                 <br>
-                Entre sus propiedades estar�an las siguientes:
+                Entre sus propiedades estarán las siguientes:
                 <br>
-                �	color: Define el color del texto.
+                color: Define el color del texto.
                 <br>
-                �	background-color: Define el color de fondo de un elemento.
+                background-color: Define el color de fondo de un elemento.
                 <br>
-                �	font-size: Define el tama�o de la fuente.
+                font-size: Define el tamaño de la fuente.
                 <br>
-                �	font-family: Define la fuente de la letra.
+                font-family: Define la fuente de la letra.
                 <br>
-                �	text-align: Define la alineaci�n del texto.
+                text-align: Define la alineación del texto.
                 <br>
-                �	padding: Define el espacio entre el borde y el contenido de un elemento.
+                padding: Define el espacio entre el borde y el contenido de un elemento.
                 <br>
-                �	margin: Define el espacio entre el borde y los elementos adyacentes.
+                margin: Define el espacio entre el borde y los elementos adyacentes.
                 <br>
-                �	border: Define el borde de un elemento.
+                border: Define el borde de un elemento.
                 <br>
-                �	display: Define c�mo se muestra un elemento (por ejemplo, display: none lo oculta).
+                display: Define cómo se muestra un elemento (por ejemplo, display: none lo oculta).
                 <br>
-                �	float: Define la posici�n de un elemento en relaci�n a otros elementos.
+                float: Define la posición de un elemento en relación a otros elementos.
                 <br>
-                �	position: Define la posici�n de un elemento en relaci�n al documento o al contenedor padre.
+                position: Define la posición de un elemento en relación al documento o al contenedor padre.
                 <br>
 
             </p>
@@ -76,13 +78,13 @@
         <section id="cssintro"  class="animated-section">
             <h2>Media Query</h2>
             <p id="sectiontext1">
-                Una media query en CSS es una t�cnica que permite adaptar el estilo de una p�gina web a diferentes dispositivos o tama�os de pantalla.
+                Una media query en CSS es una técnica que permite adaptar el estilo de una página web a diferentes dispositivos o tamaños de pantalla.
                 <br>
-                En otras palabras, las media queries se utilizan para definir estilos espec�ficos para diferentes resoluciones de pantalla, dispositivos y condiciones de visualizaci�n.
+                En otras palabras, las media queries se utilizan para definir estilos específicos para diferentes resoluciones de pantalla, dispositivos y condiciones de visualización.
                 <br>
                 Una media query en CSS se define utilizando la regla @media, seguida de una o varias condiciones que se deben cumplir para que se apliquen los estilos definidos dentro de la media query.
                 <br>
-                Las condiciones pueden ser cualquier propiedad de la pantalla, como el ancho de la pantalla, la orientaci�n del dispositivo, la densidad de p�xeles, etc.
+                Las condiciones pueden ser cualquier propiedad de la pantalla, como el ancho de la pantalla, la orientación del dispositivo, la densidad de pixeles, etc.
             </p>
         </section>
         <br>
@@ -90,14 +92,12 @@
         <section id="cssintro"  class="animated-section">
             <h2>Media Query</h2>
             <p id="sectiontext1">
-                Aqu� hay una media query que se aplica a pantallas con un ancho m�ximo de 600 p�xeles:
+                Aquí hay una media query que se aplica a pantallas con un ancho máximo de 600 pixeles:
                 <br>
                     <p id="sectiontext1">
                         <pre>
                         <code>
-                            @media (max-width: 600px) {
-                            /* Estilos para pantallas con ancho m�ximo de 600px */
-                            }
+@media (max-width: 600px) { /* Estilos para pantallas con ancho máximo de 600px */ }
 
                         </code>
                     </pre>
@@ -114,10 +114,10 @@
         </section>
         <br>
 
-
+    </center>
     </main>
     <footer>
-        <p>&copy;© 2023 The NullPointer™'s College</p>
+        <p>© 2023 The NullPointer™'s College</p>
     </footer>
 
 

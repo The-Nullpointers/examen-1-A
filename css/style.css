@@ -149,7 +149,7 @@ footer {
 }
 #sectiontext1{
     font-size: 23px;
-    text-align:left;
+    text-align:center;
 }
 
 .button-30:hover {
@@ -180,6 +180,11 @@ footer {
       opacity: 1;
       transform: translateY(0%);
   }
+}
+
+#centered{
+  align-items: center;
+  text-align: center;
 }
 
 
