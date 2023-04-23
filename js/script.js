@@ -5,12 +5,12 @@ window.onload = function() {
 
 function gotopage(x){
     if(x==1){
-        window.location.href = "html/html.html";
+        window.location.href = "html.html";
     }
     if(x==2){
-        window.location.href = "html/css.html";
+        window.location.href = "css.html";
     }
     if(x==3){
-        window.location.href = "html/js.html";
+        window.location.href = "js.html";
     }
 }
